@@ -1,0 +1,94 @@
+.btn
+{
+  background: #FDE24B;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  border-color: orange;
+  border-width: 4px;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+
+}
+
+body {
+  margin: 2em auto;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+label {
+  display: block;
+  color: #444;
+}
+
+.bsmHighlight {
+  color: #777;
+}
+
+.bsmSelect {
+  margin: 1em 0 0.25em 0;
+}
+
+.bsmListSortableCustom li {
+  cursor: move;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 2px 0;
+}
+
+/* custom */
+
+
+.bsmList-custom {
+  /* html list that contains selected items */
+  margin: 0.25em 0 0.25em 0;
+  display: block;
+  padding-left: 0;
+  list-style: none;
+
+}
+
+.bsmListItem-custom {
+  /* li item from the html list above */
+  margin: 0 5px 5px 0;
+  padding: 4px;
+  list-style: none;
+  background: #ddd;
+  border: 1px solid #bbb;
+  line-height: 1em;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  cursor:hand;
+  cursor:grab;
+  cursor:-moz-grab;
+  cursor:-webkit-grab;
+
+}
+
+/*
+.bsmListItem-custom.grabbing {
+  cursor:grabbing;
+  cursor:-moz-grabbing;
+  cursor:-webkit-grabbing;
+}*/
+
+.bsmListItem-custom:hover {
+  background-color: #e5e5e5;
+  box-shadow: 0 0 3px #aaa;
+  -webkit-box-shadow: 0 0 3px #aaa;
+  -moz-box-shadow: 0 0 3px #aaa;
+}
+
+.bsmListItemLabel-custom {
+  padding-right: 5px;
+}
+
+.bsmListItemRemove-custom {
+  text-decoration: none;
+}
