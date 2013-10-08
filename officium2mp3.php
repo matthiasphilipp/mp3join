@@ -5,10 +5,6 @@ Folders:
 /input/ = mp3 files
 /output/ = officium.mp3 (joined files)
 
-NEXT VERSION:
-[ ]save completorium for other liturgical times (Easter, PassionTide etc.)
-[ ]save "prima" (and special resp. br. - Our Lady, Sacred Heart etc.)
-
 KNOWN BUG:
 - final mp3 has corrupted mp3 id-tag... (see phpmp3.php)
  */
